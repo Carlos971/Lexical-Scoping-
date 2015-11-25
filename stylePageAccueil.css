@@ -1,0 +1,50 @@
+/* CSS PAGE ACCUEIL */
+
+	/* BODY : Pour mettre le fond de la page entière en gris */
+	body {
+		background-color: #848484;
+		margin-left: 0%;
+		margin-right: 0%;
+		border:0;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+}
+	/* P1 : La bande bleue */
+	.p1{
+		background-color: #00BFFF;
+		margin-left: 0%;
+		margin-right: 0%;
+		border: 0;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+	}
+	/* P2 : La photo donné dans le dossier conception qui sera placé à gauche des deux listes qui sont dans p3 */
+	.p2{
+		display:inline-block;
+		vertical-align: text-top;
+		width: 50%;
+	}
+	/* P3 : Les deux listes avec un fond bleu turquoise pour les deux noms des listes |  à gauche de la photo et une marge entre les deux */
+	.p3{
+		background-color: #00BFFF;
+		margin-left: 0%;
+		margin-right: 0%;
+		padding: 5px 5px 5px 5px;
+		display:inline-block;
+		vertical-align: text-top;
+		width: 8%;
+		margin-left: 9em;
+	}
+	/* Marge : dans la bande bleu entre Kaggle et Accueil qui sont deux photos */
+	.marge {
+		margin-left: 28em;
+	}
+	/* Marge 2 : entre deux liens dans la bande bleu */
+	.marge2 {
+		margin-left: 9em;
+	}
+	/* Centrage : Afin de centrer "tous droits réservés" */
+	.centrage {
+		text-align: center;
+		font-weight: bold;
+	}
