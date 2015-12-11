@@ -1,0 +1,129 @@
+/* CSS PAGE ACCUEIL */  /* CSS DES AUTRES PAGES AUSSI*/
+
+	/* BODY : Pour mettre le fond de la page entière en gris */
+	body {
+		background-color: #848484;
+		margin-left: 0%;
+		margin-right: 0%;
+		border:0;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+		}
+
+/* SPECIALEMENT POUR PAGE ACCUEIL */
+	/* P1 : La bande bleue */
+	
+	.p1{
+		background-color: #00BFFF;
+		margin-left: 0%;
+		margin-right: 0%;
+		border: 0;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+	}
+	/* P2 : La photo donné dans le dossier conception qui sera placé à gauche des deux listes qui sont dans p3 */
+	.p2{
+		display:inline-block;
+		vertical-align: text-top;
+		width: 50%;
+	}
+	/* P3 : Les deux listes avec un fond bleu turquoise pour les deux noms des listes |  à gauche de la photo et une marge entre les deux */
+	.p3{
+		background-color: #00BFFF;
+		margin-left: 0%;
+		margin-right: 0%;
+		padding: 5px 5px 5px 5px;
+		display:inline-block;
+		vertical-align: text-top;
+		width: 8%;
+		margin-left: 9em;
+	}
+	/* P2 : La photo donné dans le dossier conception qui sera placé à gauche des deux listes qui sont dans p3 */
+	.p4{
+		padding: ;
+		display:inline-block;
+		vertical-align: text-top;
+		width:;
+		margin-left: 60em;
+		
+	}
+	.fieldset2{
+		background-color:;
+		padding:;
+		display:inline-block;
+		vertical-align: text-top;
+		width:60%;
+		margin-left:10em;
+		text-align: center;
+		
+	}
+	/*DANS LE FORMULAIRE PARTIE MESSAGE*/
+	textarea {
+			/* Pour aligner correctement les champs multilignes et leurs étiquettes */
+			vertical-align: top;
+
+			/* Pour donner assez d'espace pour entrer du texte */
+			height: 5em;
+
+			/* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+			   Cela ne marche pas avec tous les navigateurs  */
+			resize: vertical;
+}
+
+
+
+
+
+
+	/* Marge : dans la bande bleu entre Kaggle et Accueil qui sont deux photos */
+	.marge {
+		margin-left: 28em;
+	}
+	/* Marge 2 : entre deux liens dans la bande bleu */
+	.marge2 {
+		margin-left: 9em;
+	}
+	/* Marge : texte gras dans la bande bleu */
+	.marge3 {
+		margin-left: 28em;
+		font-weight: bold;
+	}
+	/* Centrage : Afin de centrer "tous droits réservés" */
+	.centrage {
+		text-align: center;
+		font-weight: bold;
+	}
+	
+/* AUTRES PAGE ACCUEIL */
+	
+	/* Banniere structure */
+	header{
+		width: 100%;
+		height: 180px;
+		background-image: url('PhotoStructure2.jpg');
+		background-size: 100% 100%;
+		border:;
+	}
+	
+	/* tableau */
+table {
+	background-color: #FFFFFF;
+	margin-left: 30%;
+	margin-right: 30%;
+	border-collapse:collapse;
+	width:50%;
+ }
+td {
+ border:1px solid black;
+ text-align:center;
+ width:20%;
+ }
+.td1 {
+ text-align:center;
+ font-weight: bold;
+ }
+	
+	
+	
+	
+		
